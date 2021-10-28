@@ -1,0 +1,14 @@
+.container {
+    height: 90vh;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .finalRegardCard {
+        background-color: rgba(100, 100, 100, 0.5);
+        padding: 10px;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,38 @@
+.containerTable {
+    background-color: rgba(100, 100, 100, 0.4);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 50%;
+
+    thead {
+        tr {
+            background-color: slategray;
+            th {
+                &:first-child {
+                    width: 30%;
+                }
+                width: 10%;
+            }
+        }
+    }
+    tbody {
+        tr {
+            td {
+                &:first-child {
+                    text-align: justify;
+                }
+            }
+            background-color: slategray;
+            text-align: center;
+        }
+        .containerTotal {
+            background-color: transparent;
+            td {
+                &:last-child {
+                    background-color: slategray;
+                }
+            }
+        }
+    }
+}

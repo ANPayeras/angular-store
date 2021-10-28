@@ -1,0 +1,41 @@
+.container {
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        width: 95%;
+
+        .formElement {
+            width: 50%;
+        }
+
+        .formElementRadio {
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+
+    .appDetailContainer {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .containerButton {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}

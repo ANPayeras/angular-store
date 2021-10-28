@@ -1,0 +1,15 @@
+<mat-card class="card">
+    <div class='title'>
+        <h4>{{product.name}}</h4>
+    </div>
+    <div class='content'>
+        <mat-card-content>{{product.description}}</mat-card-content>
+    </div>
+    <mat-card-actions>
+        <button mat-flat-button color='primary' (click)='handleClick()' [disabled]='product.stock === 0'>
+            {{product.price | currency}}
+            <mat-icon>add_shopping_cart</mat-icon>
+            <span [hidden]='product.stock !== 0'> - Out of Stock</span>
+        </button>
+    </mat-card-actions>
+</mat-card>
