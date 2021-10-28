@@ -65,7 +65,7 @@
       "price": 5,
       "description": "En Hackeando del cerebro de tus compradores, Corti nos revela cómo muchas compañías crean productos digitales o procesos de venta capaces de conectar con la psicología del comprador.",
       "categoryId": 1,
-      "stock": 6
+      "stock": 4
     },
     {
       "id": 3,
@@ -73,7 +73,7 @@
       "price": 17,
       "description": "In this book, the reader will be able to focus on one concept of Angular in deep.",
       "categoryId": 1,
-      "stock": 9
+      "stock": 8
     },
     {
       "id": 4,
@@ -89,7 +89,7 @@
       "price": 399,
       "description": "5K Video - Shoot stunning video with up to 5K resolution, perfect for maintaining detail even when zooming in",
       "categoryId": 2,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 6,
@@ -97,7 +97,7 @@
       "price": 7,
       "description": "HDMI A Male to A Male Cable: Supports Ethernet, 3D, 4K video and Audio Return Channel (ARC)",
       "categoryId": 2,
-      "stock": 9
+      "stock": 8
     },
     {
       "id": 7,
@@ -211,6 +211,30 @@
       "date": "27/10/2021 20:12:05",
       "isDelivery": true,
       "id": 11
+    },
+    {
+      "name": "e",
+      "shippingAddress": "",
+      "city": "",
+      "date": "28/10/2021 16:48:52",
+      "isDelivery": true,
+      "id": 12
+    },
+    {
+      "name": "s",
+      "shippingAddress": "",
+      "city": "",
+      "date": "28/10/2021 16:52:47",
+      "isDelivery": true,
+      "id": 13
+    },
+    {
+      "name": "as",
+      "shippingAddress": "",
+      "city": "",
+      "date": "28/10/2021 16:53:44",
+      "isDelivery": true,
+      "id": 14
     }
   ],
   "detailsOrders": [
@@ -302,6 +326,21 @@
       "details": [],
       "orderId": 11,
       "id": 11
+    },
+    {
+      "details": [],
+      "orderId": 12,
+      "id": 12
+    },
+    {
+      "details": [],
+      "orderId": 13,
+      "id": 13
+    },
+    {
+      "details": [],
+      "orderId": 14,
+      "id": 14
     }
   ]
 }

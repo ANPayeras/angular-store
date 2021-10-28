@@ -10,7 +10,7 @@ import { Store } from "src/app/shared/components/header/interfaces/stores.interf
 
 export class DataService {
     // private apiURL = 'http://localhost:3001'
-    private apiURL = 'https://fake-server-angular-store.herokuapp.com/'
+    private apiURL = 'https://fake-server-angular-store.herokuapp.com'
 
     constructor(private http: HttpClient) { }
 

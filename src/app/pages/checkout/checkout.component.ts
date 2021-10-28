@@ -45,7 +45,7 @@ export class CheckoutComponent implements OnInit {
   }
 
   onSubmit({ value: formData }: NgForm): void {
-    console.log(formData)
+    // console.log(formData)
     const data: Order = {
       ...formData,
       date: this.getCurrentDay(),
