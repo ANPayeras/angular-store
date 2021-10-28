@@ -1,17 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
-
-html,
-body {
-    height: calc(100%+56px);
-}
 body {
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.background {
     background: rgb(2, 0, 36) no-repeat;
+    background-size: cover;
     background: linear-gradient(
         135deg,
         rgba(2, 0, 36, 1) 0%,
         rgba(121, 9, 77, 0.6979166666666667) 35%,
         rgba(0, 212, 255, 1) 100%
     );
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
 }
