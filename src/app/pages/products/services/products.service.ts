@@ -8,7 +8,8 @@ import { Product } from '../interface/product.interface';
   providedIn: 'root'
 })
 export class ProductsService {
-  private apiURL = 'http://localhost:3001/products'
+  // private apiURL = 'http://localhost:3001/products'
+  private apiURL = 'https://fake-server-angular-store.herokuapp.com/products'
   constructor(private http: HttpClient) { }
 
   getProducts(): Observable<Product[]> {
